@@ -1,7 +1,6 @@
-
 <html>
     <head>
-        <title> My Daylies </title>
+        <title> My daylies. </title>
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
         <link href="css/main.css" rel="stylesheet" type="text/css">  
     </head>
@@ -13,17 +12,12 @@
       }
     </style>
     <body>
-        
-    <!-- Just an image -->
     <div class="navbar">
       <div class="container">
         <div class="logo">
-
             <img src="images/index_img.png" width="300" height="100" alt="">
-        
           </div> 
         <nav>
-         
            <ul>
              <li><a href="index.php" class="current">Dashboard</a></li>
              <li><a href="notifs.php">Notifs</a></li>
@@ -34,24 +28,21 @@
               <a href="">daylies.</a>
             </div>
        </nav>   
-    
       </div>
     </div>
-   
       <div class="dashboard">
-        <!--CONTENT-->
-        <div class="entry"><img src="images/user_icon.png" width="100" height="100" alt="">
-          <h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a libero metus.
-          </h1></div>
-        <div class="entry"><img src="images/user_icon.png" width="100" height="100" alt=""><h1>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </h1></div>
-        <div class="entry"><img src="images/user_icon.png" width="100" height="100" alt=""><h1>Nunc rhoncus metus vel lacus scelerisque pretium. In tristique ante sed nunc efficitur, ac tincidunt diam consectetur. </h1></div>
-        <div class="entry"><img src="images/user_icon.png" width="100" height="100" alt=""><h1> Nullam malesuada sed nulla non condimentum. Nulla vitae nisl sodales, egestas tellus sit amet, mattis metus. </h1></div>
-        <div class="entry"><img src="images/user_icon.png" width="100" height="100" alt=""><h1>Ut facilisis eu augue nec porta. Sed dignissim egestas ex eu viverra. Nullam justo enim, eleifend in sem quis, finibus feugiat tellus. </h1></div>
-        <div class="entry"><img src="images/user_icon.png" width="100" height="100" alt=""><h1>Sed nibh nunc, blandit et sapien eu, bibendum blandit tortor. Duis tempus fermentum bibendum. Etiam sit amet dui at purus rutrum tincidunt eget ultrices lorem. Cras euismod hendrerit convallis. </h1></div>
-
-        <!--data retrieval-->
-     </div>
-
+        <div class="entry"><img src="images/user_icon1.png" width="100" height="100" alt="">
+          <h1>My key to dealing with stress is simple: just stay cool and stay focused.</h1></div>
+        <div class="entry"><img src="images/user_icon2.png" width="100" height="100" alt="">
+          <h1>Had a really great time today! Thank you @Kester! <3<3 </h1></div>
+        <div class="entry"><img src="images/user_icon3.png" width="100" height="100" alt="">
+          <h1>Problems are not stop signs, they are guidelines. Good day, guys! </h1></div>
+        <div class="entry"><img src="images/user_icon4.png" width="100" height="100" alt="">
+          <h1> BEST DAY OF MY LIFE! Taylor Swift's concert!!! #grateful #swifties</h1></div>
+        <div class="entry"><img src="images/user_icon5.png" width="100" height="100" alt="">
+          <h1>Live, Love, Laugh. Live, Love, Laugh. Live, Love, Laugh. Live! </h1></div>
+        <div class="entry"><img src="images/user_icon6.png" width="100" height="100" alt="">
+          <h1>“We are all a mess, but it’s how we keep it together that makes us beautiful.” – J. Iron Word </h1></div>
+      </div>
     </body>
 </html>

@@ -1,11 +1,10 @@
 <?php
 require_once('include/config.php');
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title>User Registration</title>
+	<title>daylies. Registration</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
@@ -25,13 +24,12 @@ require_once('include/config.php');
 					if($result){
 						echo '<script>alert("User account has been created! You may now login.")</script>';
 					}else{
-						echo '<script>alert("User registration error")</script>';
+						echo '<script>alert("User registration error.")</script>';
 					}
 		}else{
 		}
 	?>
 </div>
-
 	<div>
 		<form action="registration.php" method="post">
 			<div class="container">
@@ -66,10 +64,7 @@ require_once('include/config.php');
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
-		$('#register').click(function(e){
-
-			//check if data inputted are valid
-			
+		$('#register').click(function(e){			
 				if(valid){
 
 					var valid = this.form.checkValidity();
@@ -77,29 +72,15 @@ require_once('include/config.php');
 					var last_name = $('#last_name').val();
 					var email_address = $('#email_address').val();
 					var password = $('#password').val();
-
-
 					e.preventDefault();
-
-					$.ajax({
-						type: 'POST',
-						url: 'process.php',
-						data: {first_name: first_name, last_name: last_name, email_address: email_address, password: password},
-						// success: function(data){
-						// 	alert("Success");
-						// },
-						// error: function(data){
-						// 	alert('Iyak ka na');
-						// }
-					)};
-				
+						$.ajax({
+							type: 'POST',
+							url: 'process.php',
+							data: {first_name: first_name, last_name: last_name, email_address: email_address, password: password},
+						)};
 					}
-				
 		});
 });
-		
-	
 </script>  
-
 </body>
 </html>

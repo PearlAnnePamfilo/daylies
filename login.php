@@ -4,21 +4,18 @@
 		header("Location: index.php");
 	}
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Daylies Login</title>
+	<title>daylies. Login</title>
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-
 <body>
-<div class="container h-100">
+<div class="container h-100" id="login_container_id">
 	<div class="d-flex justify-content-center h-100">
-		
 		<div class="user_card">
 			<div class="d-flex justify-content-center" >
 			<img src="images/dayliesLogo.png" class="brand_logo">
@@ -45,7 +42,7 @@
 					</div>	
 			</div>
 			<div class="d-flex justify-content-center mt-3 login_container">
-				<button type="button" name="button" id="login" class="btn login_btn"><b>LOGIN</b></button> 
+				<button type="button" name="button" id="login" class="btn login_btn"><b>LOGIN</b></button>
 			</div>
 			</form>
 
@@ -64,10 +61,17 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </script>
+<!--Not working yet-->
 <script>
 	$(document).ready(function(){
 		$('#login').click(function(e){
 
+			//simulate a login via redirecting to index page
+			window.location.href = "index.php"; 
+			return;
+
+			//code below will not be executed.
+			//was not able to finish integration with backend
 			var valid = this.form.checkValidity();
 
 			if(valid){

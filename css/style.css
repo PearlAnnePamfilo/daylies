@@ -23,7 +23,7 @@ body{
 	position: absolute;
 	height: 170px; 
 	width: 170px;
-	top: -75px;
+	margin-top: 200px;
 	border-radius: 50%;
 	background: #FFD3D3;
 	padding: 10px;
@@ -67,4 +67,8 @@ body{
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
 	background-color: #c0392b !important;
+}
+
+#login_container_id {
+	margin-top: 200px;
 }
